@@ -1,0 +1,19 @@
+sudo apt update
+
+sudo apt install redis-server -y
+
+sudo systemctl start redis-server
+
+sudo systemctl enable redis-server
+
+redis-cli ping
+
+
+
+sudo apt install mongodb -y
+
+sudo systemctl start mongodb
+
+sudo systemctl enable mongodb
+
+systemctl status mongodb
